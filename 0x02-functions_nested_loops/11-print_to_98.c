@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib>
 
 /**
  * print_to_98 - Prints all the numbers from input number n to 98
