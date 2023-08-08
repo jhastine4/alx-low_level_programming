@@ -10,7 +10,8 @@
 char *_strdup(char *str)
 {
 	char *dup;
-	unsigned int i; len;
+	unsigned int i, len;
+
 	i = 0;
 	len = 0;
 
@@ -26,6 +27,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	while ((dup[i] = str[i]) != '\0')
-			i++;
+		i++;
+
 	return (dup);
 }
